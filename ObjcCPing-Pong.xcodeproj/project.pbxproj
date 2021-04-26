@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		ECB2043A2636A6950010B7DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB204392636A6950010B7DD /* AppDelegate.m */; };
 		ECB2043D2636A6950010B7DD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB2043C2636A6950010B7DD /* SceneDelegate.m */; };
-		ECB204402636A6950010B7DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB2043F2636A6950010B7DD /* ViewController.m */; };
+		ECB204402636A6950010B7DD /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB2043F2636A6950010B7DD /* GameViewController.m */; };
 		ECB204432636A6950010B7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB204412636A6950010B7DD /* Main.storyboard */; };
 		ECB204452636A6950010B7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB204442636A6950010B7DD /* Assets.xcassets */; };
 		ECB204482636A6950010B7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB204462636A6950010B7DD /* LaunchScreen.storyboard */; };
@@ -17,13 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ECB204352636A6950010B7DD /* ObjcCTennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcCTennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB204352636A6950010B7DD /* ObjcCPing-Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjcCPing-Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB204382636A6950010B7DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECB204392636A6950010B7DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ECB2043B2636A6950010B7DD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		ECB2043C2636A6950010B7DD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		ECB2043E2636A6950010B7DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ECB2043F2636A6950010B7DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECB2043E2636A6950010B7DD /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		ECB2043F2636A6950010B7DD /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		ECB204422636A6950010B7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECB204442636A6950010B7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB204472636A6950010B7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		ECB204362636A6950010B7DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECB204352636A6950010B7DD /* ObjcCTennis.app */,
+				ECB204352636A6950010B7DD /* ObjcCPing-Pong.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,8 +65,8 @@
 				ECB204392636A6950010B7DD /* AppDelegate.m */,
 				ECB2043B2636A6950010B7DD /* SceneDelegate.h */,
 				ECB2043C2636A6950010B7DD /* SceneDelegate.m */,
-				ECB2043E2636A6950010B7DD /* ViewController.h */,
-				ECB2043F2636A6950010B7DD /* ViewController.m */,
+				ECB2043E2636A6950010B7DD /* GameViewController.h */,
+				ECB2043F2636A6950010B7DD /* GameViewController.m */,
 				ECB204412636A6950010B7DD /* Main.storyboard */,
 				ECB204442636A6950010B7DD /* Assets.xcassets */,
 				ECB204462636A6950010B7DD /* LaunchScreen.storyboard */,
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ECB204342636A6950010B7DD /* ObjcCTennis */ = {
+		ECB204342636A6950010B7DD /* ObjcCPing-Pong */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECB2044E2636A6960010B7DD /* Build configuration list for PBXNativeTarget "ObjcCTennis" */;
+			buildConfigurationList = ECB2044E2636A6960010B7DD /* Build configuration list for PBXNativeTarget "ObjcCPing-Pong" */;
 			buildPhases = (
 				ECB204312636A6950010B7DD /* Sources */,
 				ECB204322636A6950010B7DD /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = ObjcCTennis;
+			name = "ObjcCPing-Pong";
 			productName = ObjcCTennis;
-			productReference = ECB204352636A6950010B7DD /* ObjcCTennis.app */;
+			productReference = ECB204352636A6950010B7DD /* ObjcCPing-Pong.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ECB204302636A6950010B7DD /* Build configuration list for PBXProject "ObjcCTennis" */;
+			buildConfigurationList = ECB204302636A6950010B7DD /* Build configuration list for PBXProject "ObjcCPing-Pong" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECB204342636A6950010B7DD /* ObjcCTennis */,
+				ECB204342636A6950010B7DD /* ObjcCPing-Pong */,
 			);
 		};
 /* End PBXProject section */
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB204402636A6950010B7DD /* ViewController.m in Sources */,
+				ECB204402636A6950010B7DD /* GameViewController.m in Sources */,
 				ECB2043A2636A6950010B7DD /* AppDelegate.m in Sources */,
 				ECB2044B2636A6950010B7DD /* main.m in Sources */,
 				ECB2043D2636A6950010B7DD /* SceneDelegate.m in Sources */,
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ECB204302636A6950010B7DD /* Build configuration list for PBXProject "ObjcCTennis" */ = {
+		ECB204302636A6950010B7DD /* Build configuration list for PBXProject "ObjcCPing-Pong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECB2044C2636A6950010B7DD /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECB2044E2636A6960010B7DD /* Build configuration list for PBXNativeTarget "ObjcCTennis" */ = {
+		ECB2044E2636A6960010B7DD /* Build configuration list for PBXNativeTarget "ObjcCPing-Pong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECB2044F2636A6960010B7DD /* Debug */,
